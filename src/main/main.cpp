@@ -7,11 +7,16 @@
 
 namespace
 {
-	
 }
 
 int main()
 {
+	if (!utils::nt::is_wine())
+	{
+		printf("Application must be running within a Wine environment!\n");
+		return 1;
+	}
+
 	printf("Hello World!\n");
 	return 0;
 }
