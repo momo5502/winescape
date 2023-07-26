@@ -2,6 +2,7 @@
 
 #include <map>
 #include <MinHook.h>
+#include <optional>
 
 #include "concurrency.hpp"
 #include "string.hpp"

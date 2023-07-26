@@ -1,4 +1,6 @@
 #pragma once
+#include <optional>
+
 #include "signature.hpp"
 
 #include <asmjit/core/jitruntime.h>
