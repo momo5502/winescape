@@ -45,7 +45,7 @@ workspace "winescape"
 	configurations {"Debug", "Release"}
 
 	language "C++"
-	cppdialect "C++20"
+	cppdialect "C++17"
 
 	architecture "x86_64"
 	platforms "x64"
